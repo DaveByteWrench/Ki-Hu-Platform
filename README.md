@@ -13,10 +13,15 @@ To run the application you need to specify the following environment variables:
 * `DATABASE_NAME`:  *required* parameter where to specify the database's name where create all schemas
 * `KAFKA_BOOTSTRAP_SERVERS`:  *required* parameter where to specify the kafka hosts to exchange data between other microservices
 * `HUB_NAME`: *required* the hub to initialize in the first run
+* `WEBSOCKET_BROKER_URL`: *required* the full url to the MQTT broker used to dispatch realtime data to the mobile app
 * `PRINCIPAL_USERNAME`: *required*, specify the platform's principal username
 * `PRINCIPAL_PASSWORD`: *required*, specify the platform's principal password
 
 You can specify the environment varibales using a `.env` file or injecting them in the container directly.
+
+## Infrastructure clarification
+
+ToDo
 
 ## Running the application in dev mode
 

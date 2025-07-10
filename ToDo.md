@@ -5,7 +5,6 @@ A primordial way to track the things to do
 ## Core
 
 ## Hubs
-- [ ] When the hub is started for the first time, runs the flyway migrations and initializes hub according with the settings
 - [ ] Api to get the Hub basic information
 - [ ] Api to get the full Hub information
 - [ ] The hub is provisioned with the application in the application configuration
