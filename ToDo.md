@@ -3,7 +3,6 @@
 A primordial way to track the things to do
 
 ## Core
-- [ ] Data migration is handled by Flyway
 
 ## Hubs
 - [ ] When the hub is started for the first time, runs the flyway migrations and initializes hub according with the settings
