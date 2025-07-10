@@ -1,4 +1,4 @@
-# hub-kit-platform-red
+# Hub Kit Platform Red
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
