@@ -30,7 +30,7 @@ public class InitializePlatformUseCase {
     @ConfigProperty(name = "home-kit-red-platform.websocket-address")
     String websocketAddress;
 
-    @ConfigProperty(name = "quarkus.application.version")
+    @ConfigProperty(name = "quarkus.application.version", defaultValue = "9.9.9-develop")
     String applicationVersion;
 
     private final static Logger LOGGER = LoggerFactory.getLogger(InitializePlatformUseCase.class);
