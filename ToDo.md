@@ -1,24 +1,26 @@
-# Changelog Journal
+# ToDo List
+
+A primordial way to track the things to do
 
 ## Core
-- [ ] Add application basic settings
 - [ ] Data migration is handled by Flyway
 
 ## Hubs
 - [ ] When the hub is started for the first time, runs the flyway migrations and initializes hub according with the settings
-- [ ] Api to get the Hub information
+- [ ] Api to get the Hub basic information
+- [ ] Api to get the full Hub information
 - [ ] The hub is provisioned with the application in the application configuration
 
 ## Rooms
-- [ ] Api to get the list of the rooms in the hub
-- [ ] Api to create a new room
+- [ ] Add rooms list to the hub full hub info API
+- [ ] Api to create a new room - return the created Room
 
 ## Appliances
-- [ ] Get the list of appliances, not templates
+- [ ] Add the lis tof the appliances to the hub full info API
 - [ ] Allow appliance provisioning
 - [ ] Send message when new appliance is provisioned
 - [ ] Run a scheduled task to send a snapshot of provisioned appliances
-- [ ] Add an api to allow zigbee pairing sending message to zigbee2mqtt platform
+- [ ] Add an API to allow zigbee pairing sending message to zigbee2mqtt platform
 - [ ] API to get a list of available templates
 
 ## Telemetries

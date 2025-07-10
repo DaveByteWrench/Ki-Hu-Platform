@@ -1,8 +1,22 @@
 # Hub Kit Platform Red
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This is the main service of the Hub Kit Platform and exposes the API to interact with the rest of the devices.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+## Getting started
+
+To run the application you need to specify the following environment variables:
+* `SERVER_PORT`: this is *optional* parameter and specifies a different port from the default one where to expose the APIs
+* `DATABASE_USERNAME`: *required* parameter where to specify the database's username
+* `DATABASE_PASSWORD`:  *required* parameter where to specify the database's password
+* `DATABASE_HOSTNAME`:  *required* parameter where to specify the database's hostname
+* `DATABASE_PORT`:  *required* parameter where to specify the database's port
+* `DATABASE_NAME`:  *required* parameter where to specify the database's name where create all schemas
+* `KAFKA_BOOTSTRAP_SERVERS`:  *required* parameter where to specify the kafka hosts to exchange data between other microservices
+* `HUB_NAME`: *required* the hub to initialize in the first run
+* `PRINCIPAL_USERNAME`: *required*, specify the platform's principal username
+* `PRINCIPAL_PASSWORD`: *required*, specify the platform's principal password
+
+You can specify the environment varibales using a `.env` file or injecting them in the container directly.
 
 ## Running the application in dev mode
 
