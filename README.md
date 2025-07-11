@@ -1,4 +1,8 @@
-# Hub Kit Platform Red
+# Ki-Hu Platform
+
+<p align="center">
+    <img src="./img/Ki-Hu_logo.png" alt="Ki-Hu Logo" width="240" height="240">
+</p>
 
 This is the main service of the Hub Kit Platform and exposes the API to interact with the rest of the devices.
 
